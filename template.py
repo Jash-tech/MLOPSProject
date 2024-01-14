@@ -3,6 +3,7 @@ from pathlib import Path
 
 
 list_of_files=[
+
     "src/__init__.py",
     "src/components/__init__.py",
     "src/components/data_ingestion.py",
@@ -22,7 +23,8 @@ list_of_files=[
     "tests/integration/__init__.py",
     "init_setup.sh",
     "setup.py",
-    "setup.cfg"
+    "setup.cfg",
+    "experiment/experiment.ipynb"
 
 ]
 
