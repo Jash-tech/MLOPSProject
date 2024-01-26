@@ -4,7 +4,8 @@ import sys
 import os
 from src.exception import CustomException
 from src.logger import logging
-
+from src.components.data_transformation import DataTransformation
+from src.utils import save_object
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
 from pathlib import Path 
@@ -51,9 +52,8 @@ class DataIngestion:
 
 
 
-if __name__=="__main__":
-    o=DataIngestion()
-    o.initiate_data_ingestion()
+
+
 
 
 
